@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GreenGhostScaredLeft
+  m_Name: PinkGhostScaredRight
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -170016391, guid: d1b0886225b3447a39a79cecda013a62, type: 3}
+      value: {fileID: -1674287917, guid: 5e47b2145f50c44109c80f852c354ec6, type: 3}
     - time: 0.1
-      value: {fileID: -70858493, guid: d1b0886225b3447a39a79cecda013a62, type: 3}
+      value: {fileID: -92747221, guid: 5e47b2145f50c44109c80f852c354ec6, type: 3}
     - time: 0.2
-      value: {fileID: -1414757769, guid: d1b0886225b3447a39a79cecda013a62, type: 3}
+      value: {fileID: 1536561303, guid: 5e47b2145f50c44109c80f852c354ec6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,9 +48,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -170016391, guid: d1b0886225b3447a39a79cecda013a62, type: 3}
-    - {fileID: -70858493, guid: d1b0886225b3447a39a79cecda013a62, type: 3}
-    - {fileID: -1414757769, guid: d1b0886225b3447a39a79cecda013a62, type: 3}
+    - {fileID: -1674287917, guid: 5e47b2145f50c44109c80f852c354ec6, type: 3}
+    - {fileID: -92747221, guid: 5e47b2145f50c44109c80f852c354ec6, type: 3}
+    - {fileID: 1536561303, guid: 5e47b2145f50c44109c80f852c354ec6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
