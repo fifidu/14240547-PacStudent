@@ -9,6 +9,8 @@ public class Tweener : MonoBehaviour
     private List<Tween> activeTweens;
     private float currentTime;
 
+    public bool isLerping = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class Tweener : MonoBehaviour
                 currentTime = Time.time - activeTween.StartTime;
                 if (Vector3.Distance(activeTween.Target.position, activeTween.EndPos) > 0.1f)
                 {
+                    isLerping = true;
                     float timeFraction = currentTime / activeTween.Duration;
                     activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, (float)System.Math.Pow(timeFraction, 3));
                 }
@@ -32,6 +35,7 @@ public class Tweener : MonoBehaviour
                 {
                     activeTween.Target.position = activeTween.EndPos;
                     activeTweens.Remove(activeTween);
+                    isLerping = false;
                 }
             }
         }
