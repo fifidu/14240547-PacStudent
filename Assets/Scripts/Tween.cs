@@ -6,12 +6,12 @@ public class Tween
 {
     // auto-properties
     private Transform _target;
-    private Vector2 _startPos;
-    private Vector2 _endPos;
+    private Vector3 _startPos;
+    private Vector3 _endPos;
     private float _startTime;
     private float _duration;
 
-    public Tween(Transform target, Vector2 startPos, Vector2 endPos, float startTime, float duration)
+    public Tween(Transform target, Vector3 startPos, Vector3 endPos, float startTime, float duration)
     {
         _target = target;
         _startPos = startPos;
@@ -32,7 +32,7 @@ public class Tween
         }
     }
 
-    public Vector2 StartPos
+    public Vector3 StartPos
     {
         get
         {
@@ -44,7 +44,7 @@ public class Tween
         }
     }
 
-    public Vector2 EndPos
+    public Vector3 EndPos
     {
         get
         {
